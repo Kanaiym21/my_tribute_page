@@ -82,17 +82,6 @@ main img {
   width: 100%;
   height: auto;
 }
-.quote {
-  background: var(--dark);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 0 2rem 0;
-  margin: 3rem auto;
-  outline: 2px dashed var(--white);
-  outline-offset: -2rem;
-}
 blockquote:before {
   content: '“';
   font-family: serif;
