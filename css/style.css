@@ -33,9 +33,11 @@ body {
 }
 .photo-text{
 position: absolute;
-left: 0;
+left: 18%;
 right: 0;
-top: 70%;
+top: 80%;
+font-family: 'Pacifico';
+font-size: 3rem;
 }
 p {
   margin-bottom: 1.5em;
