@@ -44,10 +44,10 @@ p {
   text-align: center;
 }
 body {
-  background: var(--black);
+  background: var(--gray);
 }
 .main-nav {
-  background: var(--balck);
+  background: var(--gray);
   padding: 2rem;
   display: flex;
   flex-direction: column;
