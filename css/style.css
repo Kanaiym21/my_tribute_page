@@ -1,19 +1,19 @@
 
-html, body, main, section, header, div, article, aside, figure, figcaption, image, iframe, h1, h2, h3, h4, h5, h6, p, table {
+html, body, main, section, header, div, article, aside, figure, image, iframe, h1, h2, h3, h4, h5, h6, p, table {
   margin: 0;
   padding: 0;
 }
 :root {
   --gray: #272727;
   --white: #e9e9e9;
-  --accent: #47B5FF;
+  --textcolor: #47B5FF;
   --reg: all .3s ease-in-out;
   --font: 'Fira Sans', sans-serif;
   font-size: 62.5%;
 }
 ::selection {
   color: var(--dark);
-  background-color: var(--accent);
+  background-color: var(--textcolor);
 }
 body {
   color: var(--white);
@@ -78,11 +78,22 @@ a:visited {
   color: var(--white);
 }
 a:hover {
-  color: var(--accent);
+  color: var(--white);
 }
 a:active, a.active {
-  color: var(--accent);
+  color: var(--white);
   text-decoration: inherit;
+  background-color: transparent;
+}
+.active {
+  border: 2px solid #47B5FF;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  border-radius: 20px;
 }
 main img {
   width: 100%;
@@ -108,7 +119,7 @@ section.second {
   justify-content: center;
 }
 h3 {
-  color: var(--accent);
+  color: var(--textcolor);
   align-self: flex-start;
 }
 .out {
@@ -128,7 +139,7 @@ h3 {
 .button {
   cursor: pointer;
   color: var(--gray);
-  background-color: var(--accent);
+  background-color: var(--textcolor);
   border: none;
   border-radius: 10rem;
   padding: 1.2rem 3.5rem .5rem 3.5rem;
