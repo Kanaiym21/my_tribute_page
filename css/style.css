@@ -33,9 +33,9 @@ body {
 }
 .photo-text{
 position: absolute;
-left: 18%;
+left: 8%;
 right: 0;
-top: 80%;
+top: 82%;
 font-family: 'Pacifico';
 font-size: 3rem;
 }
@@ -87,13 +87,13 @@ a:active, a.active {
 }
 .active {
   border: 2px solid #47B5FF;
-  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin-left: 20px;
   border-radius: 20px;
+  padding: 1.2rem 3rem .5rem 3rem;
 }
 main img {
   width: 100%;
@@ -120,7 +120,7 @@ section.second {
 }
 h3 {
   color: var(--textcolor);
-  align-self: flex-start;
+  align-self: center;
 }
 .out {
   order: 1;
@@ -136,22 +136,8 @@ h3 {
   flex-direction: column;
   align-items: center;
 }
-.button {
-  cursor: pointer;
-  color: var(--gray);
-  background-color: var(--textcolor);
-  border: none;
-  border-radius: 10rem;
-  padding: 1.2rem 3.5rem .5rem 3.5rem;
-  transition: var(--reg);
-}
-.button:hover {
-  background-color: var(--dk-acc);
-}
 footer {
-  background: var(--dark);
-  padding: 0;
-  display: inline-flex;
+  text-align: center;
   justify-content: center;
   font-size: 1.4rem;
 }
