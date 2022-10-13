@@ -33,14 +33,15 @@ body {
 }
 .photo-text{
 position: absolute;
-left: 8%;
-right: 0;
-top: 82%;
-font-family: 'Pacifico';
+left: 0;
+right: 15%;
+top: 83%;
+font-family: 'Lobster';
 font-size: 3rem;
 }
 p {
   margin-bottom: 1.5em;
+  text-align: center;
 }
 body {
   background: var(--gray);
@@ -150,8 +151,8 @@ footer {
 @media screen and (min-width: 990px) {
   body {width: 84vw;}
   .main-nav {flex-direction: row; justify-content: space-between;}
-  section.first {grid-template-columns: 1fr 1fr;}
-  section.second {grid-template-columns: 1fr 1fr;}
+  section.first {grid-template-columns: 2fr 2fr;}
+  section.second {grid-template-columns: 2fr 2fr;}
   .out {order: inherit;}
 }
 @media screen and (min-width: 1280px) {
