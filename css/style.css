@@ -82,7 +82,7 @@ a:hover {
 }
 a:active, a.active {
   color: var(--accent);
-  text-decoration: underline;
+  text-decoration: inherit;
 }
 main img {
   width: 100%;
